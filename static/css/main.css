@@ -1,0 +1,302 @@
+
+
+header
+{
+    background: rgba(0,0,0,0.25);
+}
+#banner{
+    background: transparent;
+    height:850px;
+}
+h1
+{
+    font-size: 35px;
+}
+nav{
+    background:rgba(95, 95, 93, 0.25);
+    height: 50px;
+
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    float: right;
+}
+
+nav ul li, nav .logo
+{
+    display:inline-block;
+    line-height: 50px;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    line-height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+    color:whitesmoke;
+}
+nav ul li.logo{
+    float: left;
+
+}
+#banner .inner{
+    max-width: 300px;
+    text-align: center;
+    margin:0 auto;
+    position: relative;
+    top: 150px;
+    color:#ffffff;
+}
+#banner .inner h1{
+    margin: 0;
+}
+button{
+
+    border: none;
+    background: rgba(86, 82, 82, 0.42);
+    color:#eee;
+    padding: 8px 20px;
+}
+
+#banner .inner .more{
+    margin-top: 450px;
+}
+#banner .inner .subP{
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+.logo{
+    font-size: 27px;
+    font-weight:700;
+    letter-spacing: 1px;
+}
+.logo a{
+    color: whitesmoke;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.wrapper
+{
+  max-width: 1080px;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 28px;
+}
+
+.hr
+{
+    height: 2px;
+    margin: 20px auto;
+
+}
+
+.green-section
+{
+    text-align: center;
+    background: rgba(22, 24, 24, 0.48);
+    color:#ffffff;
+    padding: 30px 0;
+}
+
+.green-section .hr
+{
+    background: rgba(32, 35, 35, 0.38);
+    width: 60%;
+}
+
+.sub-heading
+{
+    font-size: 17px;
+
+}
+
+.green-section .icon-group .icon
+{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background:rgba(29, 31, 30, 0.35);
+    transform: rotate(45deg);
+    margin: 20px;
+    border: 1px solid rgba(29, 31, 30, 0.40);;
+
+}
+.gray-section
+{
+    background:rgba(41, 40, 41, 0.88);
+}
+.green-section .icon-group
+{
+    margin-top: 50px;
+}
+
+.gray-section .img-section
+{
+    width:50%;
+}
+.img-section img
+{
+    width:100%;
+}
+.gray-section .text-section
+{
+    width: 50%;
+}
+
+.article-preview > div
+{
+    float: left;
+}
+.article-preview:after
+{
+    content:'';
+    display:block;
+    clear: both;
+}
+.article-preview:nth-child(odd){
+    background-color:rgba(40, 40, 64, 0.32);
+}
+.text-section
+{
+    position:relative;
+    top: 35px;
+    left: 30px;
+    color:#ffffff;
+}
+.text-section h2
+{
+    margin-bottom: 20px;
+
+}
+.text-section p
+{
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+.article-preview
+{
+    font-size: 0px;
+}
+.text-section > *
+{
+    max-width: 90%;
+}
+
+.purple-section
+{
+    background: rgba(41, 40, 41, 0.78);
+    color: whitesmoke;
+
+    padding: 80px;
+}
+.purple-section .heading-wrapper
+{
+    text-align: center;
+}
+.purple-section .hr
+{
+    background: rgba(41, 40, 41, 0.3);
+    width: 60%;
+}
+
+.purple-section .sub-heading
+{
+    padding: 10px;
+}
+.card
+{
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    padding: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*border: 1px solid #ffffff;*/
+}
+.card-group
+{
+    padding: 10px;
+}
+.clearfix:after
+{
+    content:'';
+    display: block;
+    clear: both;
+}
+h3{
+    font-size: 22px;
+}
+
+p
+{
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.card:first-child
+{
+    background-color:rgba(0,0,0,0.1);
+}
+.card:nth-child(2)
+{
+    background-color: rgba(0,0,0,0.3);
+}
+.card:nth-child(3)
+{
+    background-color: rgba(0,0,0,0.3);
+}
+.card:nth-child(4)
+{
+    background-color: rgba(0,0,0,0.1);
+}
+footer
+{
+    background: rgba(41, 40, 41, 0.78);
+    color:rgba(245, 245, 245, 0.57);
+    min-height: 200px;
+    text-align: center;
+}
+ul
+{
+ margin:0;
+}
+ul.share-group
+{
+    display: block;
+    width:1080px;
+    margin: 0 auto;
+    padding: 50px;
+
+
+}
+
+.share-group li
+{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+.share-group li a{
+    text-decoration: none;
+    display: inline-block;
+    color:rgba(245, 245, 245, 0.57);
+}
+.copy
+{
+    padding: 15px;
+}
+.main-wrapper
+{
+    background: #444 url(/static/images/pic08.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
